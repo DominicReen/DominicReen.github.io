@@ -1,0 +1,48 @@
+#contactus {
+  padding: 10px 5px 7px 5px;
+  margin: 0;
+  }
+legend span {
+  position: absolute;
+  left: 0;
+  font-size: 1.25em;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  }
+#contactinfo label {
+	display: block;
+	position: relative;
+	margin: 5px 12px;
+}
+#contactinfo input {
+	position: absolute;
+	left: 100px;
+}
+textarea {
+	display: block;
+}
+#nameinput, #emailinput {
+	width: 20em;
+}
+#stateinput {
+	width: 2em;
+}
+#addressinput {
+	width: 30em;
+}
+#zipinput {
+	width: 5em;
+}
+/*
+#submit {
+	background: #66c066;
+	border: none;
+	padding: 0.5em 1.5em;
+	text-align: center;
+	font-size: 1em;
+	color: white;
+}
+*/
+input:focus, textarea:focus {
+	background: #efefff;
+}

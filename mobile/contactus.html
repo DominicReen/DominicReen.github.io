@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Reen Cinematography &amp; VFX</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="reenvfxmobile.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="rprint.css" />
+	<link type="text/css" rel="stylesheet" media="screen" href="rvfxformmobile.css" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<script src="scripts/form.js"></script>
+    <!--[if lt IE 9]>
+      <script src="scripts/semantic.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <p id="skipnav"><a href="#maintext">Skip navigation</a></p> 
+    <div id="box">
+      <h1>
+        <img src="images/banner.png" width="800" height="250" alt="Reen Cinematography &amp; VFX" />
+      </h1>
+      <nav>
+        <ul id="mainnav">
+          <li><a href="index.html">Home</a></li>
+		  <div class="dropdown">
+			<button class="dropbtn">About Us</button>
+				<div class="dropdown-content">
+					<a href="aboutus.html">About Us</a>
+					<a href="team.html">Meet the Team</a>
+					<a href="pastprojects.html">Past Projects</a>
+				</div>
+		  </div>
+		  <div class="dropdown">
+			<button class="dropbtn">Gallery</button>
+				<div class="dropdown-content">
+					<a href="pictures.html">Pictures</a>
+					<a href="videos.html">Videos</a>
+				</div>
+		  </div>
+		  <li><a href="reviews.html">Reviews</a></li>
+		  <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <p id="maintext">If you have questions, or would like more information, please leave your name and contact information in the form below.</p>
+	  <form name="htmlform" id="contactinfo" method="POST" action="html_form_send.php" >
+			<label id="maintext">
+				Name
+				<input class="contactfield" type="text" name="name" id="nameinput" placeholder="First and last name" />
+			</label>
+			<label id="maintext">
+				Email
+				<input class="contactfield" type="text" name="email" id="emailinput" placeholder="address@example.com" required="required" />
+				*
+			</label>
+			<label id="maintext">
+				Address
+				<input class="contactfield" type="text" name="address" id="addressinput" />
+			</label>
+			<label id="maintext">
+				City
+				<input class="contactfield" type="text" name="city" id="cityinput" />
+			</label>
+			<label id="maintext">
+				State
+				<input class="contactfield" type="text" name="state" id="stateinput" />
+			</label>
+			<label id="maintext">
+				Zip
+				<input class="contactfield" type="text" name="zip" id="zipinput" />
+			</label>
+			<label id="maintext">
+				Comments
+				<textarea name="comments" id="commentsinput" rows="5" cols="60"></textarea>
+			</label>
+			<p id="maintext">* indicates a required field<p>
+			<div class="g-recaptcha" data-sitekey="6LesgQoUAAAAAAgVYDt2SV8qt5-jWK9AojIfiiyp"></div>
+			<br>
+			<label>
+				<input type="submit" id="submit" value="Submit" onSubmit='checkReqFields()' />
+			</label>
+	  </form>
+	  <footer>
+        <p id="contact">65 Aperture Rd. &ofcir; Focus, CO 37985 &ofcir; (303) 867-5309</p>
+		<p><a href="Documentation.pdf" id="contact" target="_blank">Documentation</a><a href="sitemap.html" id="contact">Site Map</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

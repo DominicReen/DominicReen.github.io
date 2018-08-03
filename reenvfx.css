@@ -1,0 +1,259 @@
+﻿/* Reen Cinematography and VFX */
+/* Author: Dominic Reen*/
+@font-face {
+	font-family: 'Ubuntu';
+	src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'evogria';
+	src: url('fonts/Evogria.otf') format('opentype');
+}
+h1, h2, nav, footer {
+  text-align: center;
+  }
+body {
+  min-width: 44em;
+  max-width: 60em;
+  padding: 0;
+  margin: 0 auto;
+  font-family: Ubuntu tahoma, arial, helvetica, sans-serif;
+  background: black;
+  background: url("images/background.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+h1 {
+  font-size: 2.25em;
+  margin: 0;
+  padding: 0;
+  color: white;
+  }
+h2 {
+  font-size: 1.75em;
+  }
+h3 {
+  font-size: 1.5em;
+  }
+nav {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  font-family: Evogria;
+  }
+nav p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  }
+ul {
+	list-style-type: square;
+}
+#bioimage {
+	display: block;
+	float: left;
+	margin: 1em 1em 0.5em 0;
+	padding: 0;
+}
+#box {
+  padding: 1em;
+  margin: 0 auto; 
+  background: darkblue;
+  font-family: Ubuntu;
+  }
+#contact {
+	color: white;
+	font-size: 0.8em;
+	padding: 0.5em;
+	clear: left;
+}
+#mainnav {
+  background: green;
+  text-align: center;
+  margin: 0;
+  padding: 0.25em;
+  }
+#mainnav li {
+	display: inline;
+	list-style-type: none;
+	padding: 0.25em;
+}
+#maintext {
+  margin: 0;
+  padding: 1em;
+  color: white;
+  }
+#onlink {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  font-family: Evogria;
+  }
+#review {
+  margin: 0;
+  padding: 1em;
+  color: white;
+  font-style: italic;
+}
+#name {
+  font-weight: bold;
+  }
+#pagenav {
+  color: white;
+  background: #422100;
+  margin: 0;
+  padding: 0.25em;
+  }
+#skipnav {
+  text-align: right;
+  margin: 0 auto;
+  padding: 0.25em;
+  }
+#title {
+  font-style: italic;
+  }
+.cotcol {
+	background: #9daecd;
+	width: 15%;
+}
+.firstcol {
+	background: #f1eace;
+	width: 25%;
+}
+.rates td {
+	text-align: center;
+}
+.rates td.season {
+	text-align: left;
+}
+.roomcols {
+	background: #aecdf4;
+	width: 15%;
+}
+.tablenote {
+	width: 90%;
+	margin: 0.25em auto;
+}
+.beds {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  font-weight: bold;
+  }
+.callout {
+  font-weight: bold;
+  }
+.category {
+	font-weight: bold;
+}
+.contact {
+	display: table;
+}
+.desc {
+  padding: 0;
+  margin: 1em 0 0 2em;
+  }
+/* Dropdown Button */
+.dropbtn {
+    background-color: green;
+    color: black;
+    border: none;
+    cursor: pointer;
+	font-size: 1em;
+	font-family: Evogria;
+	text-decoration: underline;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+	z-index: 22222;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.toplink {
+  text-align: right;
+  padding: 0 1em 0.25em 0;
+  margin: 0;
+  clear: right;
+  }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #e5e5e5}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+a:link {
+  color: black;
+  }
+a:visited {
+  color: black;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: black;
+  }
+#skipnav a:link {
+  color: white;
+  }
+#skipnav a:visited {
+  color: white;
+  }
+#skipnav a:hover {
+  color: #ff9;
+  }
+#skipnav a:active {
+  color: white;
+  }
+#pagenav a:link {
+  color: white;
+  }
+#pagenav a:visited {
+  color: #D7C39C;
+  }
+#pagenav a:hover {
+  color: #C6A971;
+  }
+#pagenav a:active {
+  color: white;
+  }
+#mainnav a:link {
+  color: black;
+  }
+#mainnav a:visited {
+  color: black;
+  }
+#mainnav a:hover {
+  color: white;
+  }
+#mainnav a:active {
+  color: black;
+  }
